@@ -14,9 +14,10 @@ namespace exam
             s = new List<SERVEUR>();
         
         }
-        public void addserveur(SERVEUR s)
+        public void addserveur(ServeurST s, ServeurWeb SW)
         {
             this.s.Add(s);
+            this.s.Add(SW);
         }
     }
 }
